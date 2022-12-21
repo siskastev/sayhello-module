@@ -1,5 +1,8 @@
 package sayhello_module
 
-func SayHello() string {
-	return "Hello Good People"
+import "fmt"
+
+func SayHello(name string) string {
+	name = "Siska Stevani"
+	return fmt.Sprintf("Hello Good People %v", name)
 }
