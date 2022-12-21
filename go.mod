@@ -1,3 +1,3 @@
-module github.com/siskastev/sayhello-module/v2
+module github.com/siskastev/sayhello-module
 
 go 1.19
